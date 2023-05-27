@@ -62,7 +62,7 @@ module.exports = class Exif {
       if (metadata.packname || metadata.author) {
          let img = new webp.Image()
          let json = {
-            "sticker-pack-id": "neoxrbot",
+            "sticker-pack-id": "ArzeeBotzz",
             "sticker-pack-name": metadata.packname,
             "sticker-pack-publisher": metadata.author,
             "emojis": metadata.categories ? metadata.categories : [""],
@@ -87,7 +87,7 @@ module.exports = class Exif {
       if (metadata.packname || metadata.author) {
          let img = new webp.Image()
          let json = {
-            "sticker-pack-id": "neoxrbot",
+            "sticker-pack-id": "ArzeeBotzz",
             "sticker-pack-name": metadata.packname,
             "sticker-pack-publisher": metadata.author,
             "emojis": metadata.categories ? metadata.categories : [""],
@@ -113,7 +113,7 @@ module.exports = class Exif {
       if (metadata.packname || metadata.author) {
          let img = new webp.Image()
          let json = {
-            "sticker-pack-id": "neoxrbot",
+            "sticker-pack-id": "ArzeeBotzz",
             "sticker-pack-name": metadata.packname,
             "sticker-pack-publisher": metadata.author,
             "emojis": metadata.categories ? metadata.categories : [""],
