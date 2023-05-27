@@ -17,5 +17,6 @@ exports.run = {
       }
    },
    error: false,
-   group: true
+   group: true,
+   owner: true
 }
