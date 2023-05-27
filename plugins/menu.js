@@ -1,6 +1,6 @@
 const fs = require('fs')
 exports.run = {
-   usage: ['menu', 'help', 'bot', 'command'],
+   usage: ['menu', 'command'],
    hidden: ['menutype'],
    async: async (m, {
       client,
@@ -292,5 +292,6 @@ exports.run = {
    },
    error: false,
    cache: true,
+   owner: true,
    location: __filename
 }
