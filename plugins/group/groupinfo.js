@@ -48,6 +48,7 @@ exports.run = {
       }
    },
    group: true,
+   owner: true,
    cache: true,
    location: __filename
 }
