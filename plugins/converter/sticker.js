@@ -81,5 +81,6 @@ exports.run = {
          return client.reply(m.chat, Func.jsonFormat(e), m)
       }
    },
-   error: false
+   error: false,
+   owner: true
 }
