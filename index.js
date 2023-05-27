@@ -20,7 +20,7 @@ function start() {
 	})
 }
 
-CFonts.say('NEOXR BOT', {
+CFonts.say('ARZEE BOT', {
    font: 'tiny',
    align: 'center',
    colors: ['system']
